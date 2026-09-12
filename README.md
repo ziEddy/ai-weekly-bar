@@ -2,20 +2,20 @@
 
 Codex와 Claude의 주간 잔여 한도를 맥 메뉴바 한 칸에서 확인하는 개인 개발 앱입니다.
 
-**현재는 배포 준비 중입니다.** 두 서비스 기능을 유지하며 Claude 연동의 허용 범위를 확인하고 있습니다. 공개 다운로드는 아직 제공하지 않습니다.
+**1.0.2 무료 베타를 공개합니다.** [앱 다운로드와 설치 안내](https://github.com/ziEddy/ai-weekly-bar/releases/tag/v1.0.2-beta.1)
 
 ## 주요 기능
 
 - Codex / Claude 탭 전환
 - 주간 잔여 한도 %와 초기화까지 남은 시간
 - 공식 데스크톱 앱의 로컬 고정 작업 바로 열기
-- 60초 주기의 사용량 조회
+- 기본 5분 자동 갱신, 팝업을 열 때 추가 갱신, 오류 시 재시도 간격 증가
 
 메뉴바에는 선택한 서비스의 잔여 %와 자체 아이콘이 표시됩니다. 메뉴를 열면 두 서비스의 탭과 자세한 정보를 볼 수 있습니다.
 
 ## 다운로드 방식
 
-공개 배포를 재개하면 이 저장소의 [Releases](https://github.com/ziEddy/ai-weekly-bar/releases)에서 앱 ZIP, 설치 안내, SHA-256 확인 파일을 제공합니다. 베타는 Pre-release로 표시합니다.
+[Releases](https://github.com/ziEddy/ai-weekly-bar/releases/tag/v1.0.2-beta.1)에서 **AI-Weekly-Bar-1.0.2-beta.1.zip**, 설치 안내, SHA-256 확인 파일을 받으세요. 베타는 Pre-release로 표시합니다.
 
 `Code → Download ZIP`이나 Release의 자동 생성 `Source code` 파일은 실행 앱이 아닙니다. Release의 **앱 이름이 적힌 ZIP 첨부 파일**을 받으세요.
 
@@ -30,6 +30,12 @@ Codex와 Claude의 주간 잔여 한도를 맥 메뉴바 한 칸에서 확인하
 - Intel·구버전 macOS 실기기 검증은 아직 완료하지 않았습니다.
 
 **Developer ID 서명·Apple 공증이 없는 무료 베타**입니다. 첫 실행 시 개발자 확인 관련 경고가 나올 수 있습니다. 자세한 절차는 [설치 안내](INSTALL.md)를 확인하세요.
+
+## 실험적 연동과 확인 상태
+
+Claude 연동은 실험적 내부 인터페이스를 사용합니다. 개발자의 Commercial Terms 동의 여부는 확인되지 않았으며, Anthropic 문의는 초안만 작성한 미발송 상태입니다. 이 구현에 대한 공식 허용 답변을 받은 앱이 아닙니다. CLI 업데이트로 사용량 표시가 중단되거나 바뀔 수 있습니다.
+
+[Anthropic 공식 안내](https://code.claude.com/docs/en/legal-and-compliance)는 제품에서 Claude Code를 실행할 때의 Commercial Terms 등 조건을 설명합니다. 공개 배포는 해당 조건을 충족했다는 인증이 아닙니다.
 
 ## 개인정보
 

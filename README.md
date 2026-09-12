@@ -2,7 +2,9 @@
 
 Codex와 Claude의 주간 잔여 한도를 맥 메뉴바 한 칸에서 확인하는 개인 개발 앱입니다.
 
-**1.0.2 무료 베타를 공개합니다.** [앱 다운로드와 설치 안내](https://github.com/ziEddy/ai-weekly-bar/releases/tag/v1.0.2-beta.1)
+**1.0.3 무료 베타를 공개합니다.** [앱 다운로드와 설치 안내](https://github.com/ziEddy/ai-weekly-bar/releases/tag/v1.0.3-beta.1)
+
+1.0.2에는 Claude 탭이 Claude Code를 대화형으로 쓴 뒤 약 1시간만 값을 보여주고 그 뒤 `—%`로 남는 결함이 있었습니다. 1.0.3에서 수정했으니 1.0.2 사용자는 교체해 주세요.
 
 ## 주요 기능
 
@@ -15,7 +17,7 @@ Codex와 Claude의 주간 잔여 한도를 맥 메뉴바 한 칸에서 확인하
 
 ## 다운로드 방식
 
-[Releases](https://github.com/ziEddy/ai-weekly-bar/releases/tag/v1.0.2-beta.1)에서 **AI-Weekly-Bar-1.0.2-beta.1.zip**, 설치 안내, SHA-256 확인 파일을 받으세요. 베타는 Pre-release로 표시합니다.
+[Releases](https://github.com/ziEddy/ai-weekly-bar/releases/tag/v1.0.3-beta.1)에서 **AI-Weekly-Bar-1.0.3-beta.1.zip**, 설치 안내, SHA-256 확인 파일을 받으세요. 베타는 Pre-release로 표시합니다.
 
 `Code → Download ZIP`이나 Release의 자동 생성 `Source code` 파일은 실행 앱이 아닙니다. Release의 **앱 이름이 적힌 ZIP 첨부 파일**을 받으세요.
 
